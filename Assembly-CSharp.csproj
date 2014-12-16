@@ -46,16 +46,49 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MovPlus.cs" />
-     <Compile Include="Assets\Scripts\Level\Chunk.cs" />
-     <Compile Include="Assets\Scripts\Level\ModifyTerrain.cs" />
-     <Compile Include="Assets\Scripts\Level\Noise.cs" />
-     <Compile Include="Assets\Scripts\Level\PolygonGenerator.cs" />
-     <Compile Include="Assets\Scripts\Level\World.cs" />
-     <Compile Include="Assets\Scripts\Utility\CameraMov.cs" />
-     <Compile Include="Assets\Scripts\Utility\ColliderExample.cs" />
-     <Compile Include="Assets\Scripts\Utility\RaycastExample.cs" />
-     <Compile Include="Assets\SeedGen.cs" />
+     <Compile Include="Assets\Scripts\3dNoiseTest\NoiseTest.cs" />
+     <Compile Include="Assets\Scripts\Misc\CustomController.cs" />
+     <Compile Include="Assets\Scripts\Misc\IntVect.cs" />
+     <Compile Include="Assets\Scripts\Misc\OptionalParameterExtensions.cs" />
+     <Compile Include="Assets\Scripts\Misc\Player_Script.cs" />
+     <Compile Include="Assets\Scripts\Misc\Random.cs" />
+     <Compile Include="Assets\Scripts\Misc\RotatingText.cs" />
+     <Compile Include="Assets\Scripts\Misc\TList.cs" />
+     <Compile Include="Assets\Scripts\Misc\TQueue.cs" />
+     <Compile Include="Assets\Scripts\MovPlus.cs" />
+     <Compile Include="Assets\Scripts\Noise\PerlinNoise.cs" />
+     <Compile Include="Assets\Scripts\Noise\SimplexNoise.cs" />
+     <Compile Include="Assets\Scripts\Noise\SimplexNoiseGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\BatchProcessor.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Block.cs" />
+     <Compile Include="Assets\Scripts\Terrain\Chunk.cs" />
+     <Compile Include="Assets\Scripts\Terrain\ChunkGameObject.cs" />
+     <Compile Include="Assets\Scripts\Terrain\LightProcessor.cs" />
+     <Compile Include="Assets\Scripts\Terrain\MeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\TerrainGenerator.cs" />
+     <Compile Include="Assets\Scripts\Terrain\World.cs" />
+     <Compile Include="Assets\Scripts\Terrain\WorldData.cs" />
+     <Compile Include="Assets\Scripts\Terrain\WorldMover.cs" />
+     <Compile Include="Assets\Scripts\TerrainGenerationMethods\DualLayerTerrainWithMediumValleys.cs" />
+     <Compile Include="Assets\Scripts\TerrainGenerationMethods\DualLayerTerrainWithMediumValleysForRivers.cs" />
+     <Compile Include="Assets\Scripts\TerrainGenerationMethods\ITerrainGenerationMethod.cs" />
+     <Compile Include="Assets\Scripts\TerrainGenerationMethods\StandardTerrainMediumCaves.cs" />
+     <Compile Include="Assets\Scripts\TerrainGenerationMethods\StandardTerrainMethodNoCaves.cs" />
+     <Compile Include="Assets\Scripts\WorldDecorations\IDecoration.cs" />
+     <Compile Include="Assets\Scripts\WorldDecorations\StandardTreeDecorator.cs" />
+     <Compile Include="Assets\Scripts\WorldDecorations\WorldDecorator.cs" />
+     <Compile Include="Assets\Scripts\WorldGameObject.cs" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Scripts\Terrain\CaveGeneration.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\ skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Shaders\TestShader.shader" />
+     <None Include="Assets\Shaders\VertexShaderUnlit.shader" />
+     <None Include="Assets\MineClone\Shaders\VertexColor.shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

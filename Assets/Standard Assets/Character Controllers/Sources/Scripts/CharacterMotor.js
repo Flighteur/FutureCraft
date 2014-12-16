@@ -78,7 +78,7 @@ class CharacterMotorJumping {
 	// We add extraHeight units (meters) on top when holding the button down longer while jumping
 	var extraHeight : float = 4.1;
 	
-	// How much does the character jump out perpendicular to the surface on walk-able surfaces?
+	// How much does the character jump out perpendicular to the surface on walkable surfaces?
 	// 0 means a fully vertical jump and 1 means fully perpendicular.
 	var perpAmount : float = 0.0;
 	
@@ -562,7 +562,7 @@ function SetControllable (controllable : boolean) {
 	canControl = controllable;
 }
 
-// Project a direction onto elliptical quarter segments based on forward, sideways, and backwards speed.
+// Project a direction onto elliptical quater segments based on forward, sideways, and backwards speed.
 // The function returns the length of the resulting vector.
 function MaxSpeedInDirection (desiredMovementDirection : Vector3) : float {
 	if (desiredMovementDirection == Vector3.zero)

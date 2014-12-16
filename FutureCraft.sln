@@ -7,8 +7,6 @@ Project("{8EBD1BC3-730A-95A0-FE0A-3C398E90050E}") = "FutureCraft", "Assembly-CSh
 EndProject
 Project("{8EBD1BC3-730A-95A0-FE0A-3C398E90050E}") = "FutureCraft", "Assembly-UnityScript-firstpass.unityproj", "{A746AC63-961E-3959-E351-4F07BBF422EC}"
 EndProject
-Project("{8EBD1BC3-730A-95A0-FE0A-3C398E90050E}") = "FutureCraft", "Assembly-UnityScript.unityproj", "{88002F66-1861-ACE3-D2C1-552CAF9E996A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,15 +25,11 @@ Global
 		{A746AC63-961E-3959-E351-4F07BBF422EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A746AC63-961E-3959-E351-4F07BBF422EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A746AC63-961E-3959-E351-4F07BBF422EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88002F66-1861-ACE3-D2C1-552CAF9E996A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88002F66-1861-ACE3-D2C1-552CAF9E996A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88002F66-1861-ACE3-D2C1-552CAF9E996A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88002F66-1861-ACE3-D2C1-552CAF9E996A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																	GlobalSection(MonoDevelopProperties) = preSolution
+											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
